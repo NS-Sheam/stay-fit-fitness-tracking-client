@@ -50,8 +50,8 @@ const Header = () => {
         </>
 
     return (
-        <div className='xl:mx-20 md:mx-10 mx-4 sm:mx-2'>
-            <div className={`flex py-2 bg-gradient-to-r from-band-primary to-band-ternery ${isHeaderFixed ? "absolute left-4 top-1/2 rounded-2xl" : "xl:px-4 px-2 sm:px-1 rounded-b-2xl"}`}>
+        <div className='my-container'>
+            <div className={`flex py-2 bg-gradient-to-r from-band-primary to-band-ternery ${isHeaderFixed ? " fixed left-4 top-36 rounded-2xl" : "xl:px-4 px-2 sm:px-1 rounded-b-2xl"}`}>
                 <div className="navbar-start text-black">
                     <a className={`btn btn-ghost normal-case text-sm md:text-xl lg:text-2xl text-white font-bold ${isHeaderFixed && "hidden"}`}>stay fit</a>
                 </div>
